@@ -395,4 +395,8 @@
     <!-- Privacy Guard Notification -->
     <string name="privacy_guard_notification_title">Notification</string>
     <string name="privacy_guard_notification_summary">Show notification if privacy guard is active.</string>
+
+    <!--Lockscreen See Through-->
+    <string name="see_through_title">See through</string>
+    <string name="see_through_summary">Shows the content behind your lockscreen, your data may be visible to those around you</string>
 </resources>

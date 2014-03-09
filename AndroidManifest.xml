@@ -1664,37 +1664,6 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-        <!-- NamelessROM activities Start -->
-        <activity android:name="Settings$MoreInterfaceSettingsActivity"
-            android:label="@string/more_device_controls_title"
-            android:taskAffinity=""
-            android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.nameless.InterfaceMoreSettings" />
-            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/interface_more" />
-        </activity>
-
-        <activity android:name="Settings$AnimationInterfaceSettingsActivity"
-                android:label="@string/interface_animation_title"
-                android:taskAffinity=""
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.nameless.interfacesettings.AnimationInterfaceSettings" />
-            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/interface_animation" />
-        </activity>
-
         <!-- TRDS -->
         <activity
             android:name=".slim.themes.ThemeSettings"

@@ -75,14 +75,6 @@
         android:icon="@drawable/ic_settings_updatecenter"
         android:title="@string/device_update_center" />
 
-    <!-- Other interface controls -->
-    <header
-        android:id="@+id/interface_more"
-        android:title="@string/more_device_controls_title"
-        android:breadCrumbTitle="@string/more_device_controls_title"
-        android:icon="@drawable/empty_icon"
-        android:fragment="com.android.settings.nameless.NamelessMoreSettings" />
-
     <!-- Multi Sim Settings - this is in the settings process -->
     <header
         android:id="@+id/multi_sim_settings"
@@ -126,22 +118,6 @@
         android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
         android:title="@string/lock_screen_title"
         android:icon="@drawable/ic_settings_lockscreen" />
-
-    <!-- Animation Control -->
-    <header
-        android:id="@+id/interface_animation"
-        android:title="@string/interface_animation_title"
-        android:breadCrumbTitle="@string/interface_animation_title"
-        android:fragment="com.android.settings.nameless.interfacesettings.AnimationInterfaceSettings"
-        android:icon="@drawable/ic_rom_control_animations" />
-
-    <!-- Other interface controls -->
-    <header
-        android:id="@+id/interface_more"
-        android:title="@string/more_device_controls_title"
-        android:breadCrumbTitle="@string/more_device_controls_title"
-        android:icon="@drawable/empty_icon"
-        android:fragment="com.android.settings.nameless.InterfaceMoreSettings" />
 
     <!-- CYANOGENMOD -->
     <!--header android:title="@string/header_category_cyanogenmod" /-->

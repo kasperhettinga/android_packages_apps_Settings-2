@@ -1664,6 +1664,21 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
+        <!-- NamelessROM activities Start -->
+
+        <!-- Navbar -->
+        <activity android:name=".slim.NavbarSettings" />
+
+        <activity android:name="Settings$NavbarSettingsActivity"
+                android:label="@string/navigation_bar_category" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.slim.NavbarSettings" />
+        </activity>
+
         <!-- TRDS -->
         <activity
             android:name=".slim.themes.ThemeSettings"
